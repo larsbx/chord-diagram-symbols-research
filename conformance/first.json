@@ -1,0 +1,23 @@
+{
+  "domain": "all pairings through k=8; source recurrence through k=10",
+  "matching_oracle": [
+    "k=2 matchings=3 connected=1 simple=1 mismatches=0",
+    "k=3 matchings=15 connected=4 simple=4 mismatches=0",
+    "k=4 matchings=105 connected=27 simple=27 mismatches=0",
+    "k=5 matchings=945 connected=248 simple=248 mismatches=0",
+    "k=6 matchings=10395 connected=2830 simple=2830 mismatches=0",
+    "k=7 matchings=135135 connected=38232 simple=38232 mismatches=0",
+    "k=8 matchings=2027025 connected=593859 simple=593859 mismatches=0",
+    "PASS: all 2,027,025 8-chord pairings, 0 predicate mismatches"
+  ],
+  "recurrence_oracle": [
+    "connected_chord_a_2_to_10: [1, 4, 27, 248, 2830, 38232, 593859, 10401712, 202601898]",
+    "pattern_counts: {4: 392, 5: 33530, 6: 89782, 7: 38232}",
+    "cycle_counts_Q4_to_Q7: {4: 5376, 5: 4652160, 6: 203258880, 7: 3337213440}",
+    "corrected_sigma7: 880865280",
+    "legacy_sigma7: -2049830400",
+    "corrected_deficit7_if_primitive_symbol_valid: 274498560",
+    "PASS: exact rational / recurrence / historical contradiction"
+  ],
+  "status": "source replay; k9/k10 recurrence-derived; no Q8 cycle enumeration or new all-k proof"
+}
